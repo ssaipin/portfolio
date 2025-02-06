@@ -1,0 +1,102 @@
+h1 {
+    color: hotpink;
+    font-style: italic;
+    font-size: 60px; 
+}
+p {
+    color: black;
+    font-size: 21px;
+}
+.blog:hover {
+    background-color: pink;
+    text-decoration-style: wavy;
+}
+a[href="portfolio-lesson02.html"] {
+    padding: .5rem;
+    font-weight: bold;
+    color: blue;
+}
+a[href="../portfolio-lesson02.html"] {
+    padding: .5rem;
+    font-weight: bold;
+    color: blue;
+}
+.home:hover {
+    background-color: pink;
+    text-decoration-style: wavy;
+}
+a[href="index.html"] {
+    padding: .5rem;
+    font-weight: bold;
+    color: blue;
+}
+body {
+  background-color: lightcyan; 
+}
+h2 {
+    font-family: monospace;
+    font-size: 30px;
+    color: blueviolet;
+}
+h3 {
+    font-size: 25px;
+    color: blueviolet;    
+}
+#lead-paragraph {
+    color: hotpink;
+    font-weight: bold;
+}
+.my-picture {
+    border-radius: 8%;
+}
+img {
+    border-style: dotted;
+    
+    border-color: blue;
+}
+.contact {
+    color: hotpink;
+    text-decoration: none;
+}
+.contact:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+.passion {
+    font-size: 21px;
+}
+.blue-text {
+    color: blue;
+}
+aside a {
+    text-decoration: none;
+    color: blue;
+    font-size: 21px;
+  }
+  aside a:hover {
+    text-decoration: underline;
+    background-color: pink;
+  }
+  aside a:visited {
+    color: hotpink;
+  }
+  .projects {
+    font-size: 21px;
+  } 
+  aside li {
+    color: hotpink;
+    font-size: 21px;
+  }
+  div p {
+    border: 1px solid black;
+    padding: 5px;
+    width: 400px;
+    height: 100px;
+    text-align: justify;
+    background-color: #FFF4A3;
+    font-size: 18px;
+  }
+  .emoji {
+    font-size: 30px;
+  }
+ 
