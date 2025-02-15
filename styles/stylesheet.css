@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda&family=PT+Sans');
 h1 {
     color: hotpink;
-    font-style: italic;
-    font-size: 60px; 
+    font-family: "Abril Fatface", serif;
+    font-style: normal;
+    font-size: 60px;
+
 }
 p {
     color: black;
+    font-family: "PT Sans", serif;
+    font-style: normal;
     font-size: 21px;
 }
 .blog:hover {
@@ -34,8 +39,9 @@ body {
   background-color: lightcyan; 
 }
 h2 {
-    font-family: monospace;
+    font-family: "Bodoni Moda", serif;
     font-size: 30px;
+    font-style: normal;
     color: blueviolet;
 }
 h3 {
