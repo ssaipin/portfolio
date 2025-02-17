@@ -4,39 +4,12 @@ h1 {
     font-family: "Abril Fatface", serif;
     font-style: normal;
     font-size: 60px;
-
 }
 p {
     color: black;
     font-family: "PT Sans", serif;
     font-style: normal;
     font-size: 21px;
-}
-.blog:hover {
-    background-color: pink;
-    text-decoration-style: wavy;
-}
-a[href="portfolio-lesson02.html"] {
-    padding: .5rem;
-    font-weight: bold;
-    color: blue;
-}
-a[href="../portfolio-lesson02.html"] {
-    padding: .5rem;
-    font-weight: bold;
-    color: blue;
-}
-.home:hover {
-    background-color: pink;
-    text-decoration-style: wavy;
-}
-a[href="index.html"] {
-    padding: .5rem;
-    font-weight: bold;
-    color: blue;
-}
-body {
-  background-color: lightcyan; 
 }
 h2 {
     font-family: "Bodoni Moda", serif;
@@ -49,27 +22,17 @@ h3 {
     color: blueviolet;    
 }
 #lead-paragraph {
-    color: hotpink;
+    color: blueviolet;
     font-weight: bold;
 }
 .my-picture {
     border-radius: 8%;
 }
-img {
-    border-style: dotted;
-    
-    border-color: blue;
-}
-.contact {
-    color: hotpink;
-    text-decoration: none;
-}
-.contact:hover {
-    text-decoration: underline;
-    text-decoration-style: wavy;
-}
-.passion {
+.passions {
     font-size: 21px;
+    font-family: "PT Sans", serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 .blue-text {
     color: blue;
@@ -93,16 +56,105 @@ aside a {
     color: hotpink;
     font-size: 21px;
   }
-  div p {
+  .aside-icon-park {
     border: 1px solid black;
     padding: 5px;
     width: 400px;
     height: 100px;
     text-align: justify;
-    background-color: #FFF4A3;
-    font-size: 18px;
+    font-size: 17px;
+    float: right;
   }
-  .emoji {
-    font-size: 30px;
+  .link-header {
+    background-color: hotpink;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 0.5rem;   
+    text-align: right;
   }
- 
+  ul.menu {
+    list-style: none;
+    font-family: "PT Sans", serif;
+    font-size: 22px;
+    margin-right: 15rem;
+  }
+  ul.menu li {
+    display: inline;
+  }
+  ul.menu li a {
+    color: black;
+    text-decoration: none;
+  }
+ ul.menu li+li:before {
+    padding: 12px;
+    color: black;
+    content: "|\00a0"
+ }
+.index-flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.4rem;
+}
+.main-box {
+    padding: 0rem 15rem; 
+}
+.photo-box {
+    padding-right: 15rem;
+}
+.blog-flex-container {
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.lesson01-flex-box {
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.guitar-box {
+    float: right;
+}
+.footer-copyright {
+    background-color: hotpink;
+    margin-top: 5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 0.01rem;   
+    text-align: center;
+}
+.copyright {
+    font-size: 14px;
+    color: white;
+    font-family: monospace;
+}
+.social-icons {
+    list-style: none;
+    padding-top: 2rem;
+    
+}
+.fa-facebook {
+    font-size: 80px;
+    color: blue;
+    float: right;
+    padding-bottom: 1rem;
+    text-decoration: none;
+}
+.fa-github {
+    font-size: 80px;
+    color: black; 
+    padding-bottom: 1rem; 
+    text-decoration: none;
+}
+.fa-instagram {
+    font-size: 80px;
+    color: red;
+    float: right;
+    text-decoration: none;
+}
+.fa-envelope {
+    font-size: 75px;
+    color: rgb(189, 183, 183);
+    text-decoration: none;
+}
