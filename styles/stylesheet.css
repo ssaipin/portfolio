@@ -37,7 +37,7 @@ h3 {
 .blue-text {
     color: blue;
 }
-/*index page */
+/* Index Page */
   .link-header {
     background-color: hotpink;
     margin-left: -1rem;
@@ -188,30 +188,20 @@ aside a {
     border: 1px solid black;
     padding: 5px;
     width: 300px;
-    height: 100px;
-    text-align: justify;
-    font-size: 17px;
-    float: right;
-    position: relative;
-    right: 10%;
+    height: 200px;
+    text-align: justify;  
   }
-.guitar-box {
-    float: right;
-    position: relative;
-    right: 10%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.crandon-beach-box {
-    position: relative;
-    left: 10%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.icon-park-box {
-    position: relative;
-    left: 6%;
-    padding-top: 1rem;
+  .photo-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem 0 2rem 0;
+  }
+.iconpark-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem 0 2rem 0;
 }
 /* Footer */
 .footer-copyright {
