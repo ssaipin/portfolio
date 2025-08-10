@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+    margin-top: 4rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  
+}
+
+.accordion {
+  background-color: rgb(187, 240, 252);
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.2em;
+  transition: 0.4s;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.active, .accordion:hover {
+  background-color: skyblue; 
+}
+
+.content {
+  margin: 0.2em 0;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  border: 1px solid skyblue;
+  border-radius: 8px;
+}
+.content p {
+    color: blueviolet;
+    font-family: "Bodoni Moda", serif;
+}
+ul {
+    font-size: 1.2em;
+    font-family: "PT Sans", serif;
+}
+li a { 
+    text-decoration: none;
+    color: blue; 
+}
+li a:hover {
+    text-decoration: underline;
+    color: hotpink;
+}
+

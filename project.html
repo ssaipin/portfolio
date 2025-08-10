@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/accordion.css">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <title>Projects</title>
+</head>
+
+<body>
+    <header class="link-header">
+        <ul class="menu">
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio-lesson02.html">Blog</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="resume.pdf" target="_blank">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>School Work Projects</h1>
+        <p>Here are some of the projects I have worked on during my time at school:</p>
+
+        <button class="accordion">HTML and CSS Foundations</button>
+        <div class="content">
+            <p>In this course I learned about:</p>
+            <ul>
+                <li>HTML structure and semantics</li>
+                <li>CSS styling and Grid & Flex layout</li>
+                <li>Images & Responsive design</li>
+                <li>Accessibility & Multimedia</li>
+                <li><a href="assets/lesson01/index.html" target="_blank">First HTML Semantics</a></li>
+                <li><a href="https://ssaipin.github.io/mock-up-kitties/" target="_blank">Mockup Kitties</a></li>
+                <li><a href="https://ssaipin.github.io/archery/" target="_blank">Archery</a></li>
+            </ul>
+        </div>
+
+        <button class="accordion">Javascript and Responsive Design</button>
+        <div class="content">
+            <p>In this course I learned about:</p>
+            <ul>
+                <li>Javascript basics and DOM manipulation</li>
+                <li>Responsive design</li>
+                <li>Event handling and form validation</li>
+                <li>APIs and JSON</li>
+                <li><a href="https://ssaipin.github.io/html200-adopt-a-dog/" target="_blank">Adop a dog</a></li>
+            </ul>
+        </div>
+
+        <button class="accordion">Javascript and Advanced CSS</button>
+        <div class="content">
+            <p>In this course I learned about:</p>
+            <ul>
+                <li>Advanced CSS techniques: Animations</li>
+                <li>Bootstrap & Vue</li>
+                <li>APIs and Asynchronous Programming</li>
+                <li>Nuxt and Routing</li>
+                <li>SEO (Search Engine Optimization)</li>
+                <li><a href="https://codepen.io/ssaipin/pen/GgpvzPJ" target="_blank">Animations</a></li>
+                <li><a href="https://codepen.io/ssaipin/pen/raOzPqv" target="_blank">Bank Dashboard</a></li>
+                <li><a href="https://codepen.io/ssaipin/pen/xbwEMBX" target="_blank">Bootstrap Checkout Form</a></li>
+
+            </ul>
+        </div>
+        <script>
+            const acc = document.getElementsByClassName("accordion");
+
+            for (let i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    const content = this.nextElementSibling;
+
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+    </main>
+    <footer class="footer-copyright">
+        <p class="copyright">&copy;2025 Designed by Gao Saipin | Seattle, WA</p>
+    </footer>
+</body>
+
+</html>
