@@ -1,0 +1,80 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 15rem;
+    flex-wrap: wrap;
+}
+.main-box {
+    width: 45%;
+}   
+.social-icons {
+    list-style: none;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 2em;
+  
+}
+.fa-facebook {
+    font-size: 80px;
+    color: blue;
+    /* float: right;
+    position: relative;
+    right: 25%;
+    padding-bottom: 1rem; */
+    text-decoration: none;
+   
+}
+.fa-github {
+    font-size: 80px;
+    color: black; 
+    /* position: relative;
+    left: 25%;
+    padding-bottom: 1rem;  */
+    text-decoration: none;
+}
+.fa-instagram {
+    font-size: 80px;
+    color: red;
+    /* float: right;
+    position: relative;
+    right: 25%; */
+    text-decoration: none;
+}
+.fa-codepen {
+    font-size: 75px;
+    color: black;
+    /* position: relative;
+    left: 25%; */
+    text-decoration: none;
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    .flex-container {
+        margin: 5rem;
+    }
+    .social-icons {
+        width: 80%;
+    }
+}
+@media (min-width: 373px) and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        margin: 2rem;
+        align-items: center;
+    }
+    .main-box {
+        width: 100%;
+    }
+    .social-icons {
+        width: 100%;
+        justify-content: center;
+    }
+    .fa-facebook, .fa-github, .fa-instagram, .fa-codepen {
+        font-size: 60px;
+    }
+}

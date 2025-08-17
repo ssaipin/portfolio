@@ -1,12 +1,9 @@
-* {
-  box-sizing: border-box;
-}
 
-main {
+.project-section {
     margin-top: 4rem;
     margin-left: 15rem;
     margin-right: 15rem;
-  
+
 }
 
 .accordion {
@@ -52,4 +49,13 @@ li a:hover {
     text-decoration: underline;
     color: hotpink;
 }
-
+@media (min-width: 769px) and (max-width: 1200px) {
+  .project-section {
+    margin: 5rem;
+  }
+}
+@media (min-width: 373px) and (max-width: 768px) {
+  .project-section {
+    margin: 2rem;
+  }
+}

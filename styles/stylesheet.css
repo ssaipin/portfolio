@@ -2,16 +2,15 @@
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
 }
 main {
     flex: 1;
 }
 h1 {
-    color: hotpink;
+    color: hotpink !important;
     font-family: "Abril Fatface", serif;
-    font-style: normal;
-    font-size: 60px;
+    
 }
 p {
     color: black;
@@ -23,11 +22,11 @@ h2 {
     font-family: "Bodoni Moda", serif;
     font-size: 30px;
     font-style: normal;
-    color: blueviolet;
+    color: blueviolet !important;
 }
 h3 {
     font-size: 25px;
-    color: blueviolet;    
+    color: blueviolet !important;
 }
 #lead-paragraph {
     color: blueviolet;
@@ -45,123 +44,32 @@ h3 {
 .blue-text {
     color: blue;
 }
-/* Index Page */
-  .link-header {
+/* NavBar */
+.custom-navbar {
     background-color: hotpink;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    padding: 0.5rem;   
-    text-align: right;
-  }
-  ul.menu {
-    list-style: none;
-    font-family: "PT Sans", serif;
-    font-size: 22px;
-    margin-right: 15rem;
-  }
-  ul.menu li {
-    display: inline;
-  }
-  ul.menu li a {
-    color: black;
-    text-decoration: none;
-    opacity: 1;
-  }
-  ul.menu li a:hover {
-    text-decoration: underline;
-    opacity: 0.5;
-  }
- 
- ul.menu li+li:before {
-    padding: 12px;
-    color: black;
-    content: "|\00a0"
- }
-.index-flex-container {
-    display: flex;
-    flex-direction: row;
-    margin-top: 6.4rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
-}
-.main-box {
-    padding: 1rem; 
-}
-.photo-box {
     padding: 1rem;
-    position: relative;
 }
-.photo-of-me {
-    display: block;
-    border-radius: 8%;
+.custom-brand {
+    color: white !important;
+    font-size: 1.8rem !important;
+    font-family: "PT Sans", serif;
+    font-weight: bold;
+    margin-left: 1em;
 }
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    transition: 0.5s ease;
-    background-color: hotpink;
-    border-radius: 8%;
+.custom-link {
+    font-size: 1.3rem !important;
+    font-family: "PT Sans", serif;
+    color: black !important;
 }
-.photo-box:hover .overlay {
-    opacity: 1;
+.nav-link.active {
+  color: white !important;
 }
-.text-photo-of-me {
-    color: white;
-    font-size: 21px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+.custom-link:hover {
+    text-decoration: underline;
 }
-.index-column img {    
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 100px;
-}  
-.index-column img:hover {
-        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}      
-.index-row {
-    content: "";
-    clear: both;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 2em 15em; 
-}
-/* Blog Page */
-.blog-container {
-    display: block;
-    margin-top: 4rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
-}
-.blog-column {
-    float: left;
-    position: relative;
-    padding: 50px;
-}
-.blog-column img {
-    opacity: 0.8;
-    cursor: pointer;
-}
-.blog-column img:hover {
-    opacity: 1;
-}
-.blog-row:after {
-    content: "";
-    display: table;
-    clear: both;
+.navbar-toggler {
+  border-color: white !important;
+  margin-right: 1em;
 }
 
 /* Lesson01 Page */
@@ -224,55 +132,27 @@ aside a {
     padding: 2rem 0 2rem 0;
 }
 /* Footer */
-.footer-copyright {
-    background-color: hotpink;
-    margin-top: auto;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    padding: 0.01rem;   
-    text-align: center;
-}
-.copyright {
-    font-size: 14px;
+.custom-footer {
+  background-color: hotpink;
+  font-size: 14px;
     color: white;
     font-family: monospace;
 }
-
-/*Contact Page */
-.social-icons {
-    list-style: none;
-    padding: 2rem;   
+@media (min-width: 769px) and (max-width: 1200px) {
+  .lesson01-box {
+    margin: 5rem;
+  }
 }
-.fa-facebook {
-    font-size: 80px;
-    color: blue;
-    float: right;
-    position: relative;
-    right: 25%;
-    padding-bottom: 1rem;
-    text-decoration: none;
-   
-}
-.fa-github {
-    font-size: 80px;
-    color: black; 
-    position: relative;
-    left: 25%;
-    padding-bottom: 1rem; 
-    text-decoration: none;
-}
-.fa-instagram {
-    font-size: 80px;
-    color: red;
-    float: right;
-    position: relative;
-    right: 25%;
-    text-decoration: none;
-}
-.fa-codepen {
-    font-size: 75px;
-    color: black;
-    position: relative;
-    left: 25%;
-    text-decoration: none;
+@media (min-width: 373px) and (max-width: 768px) {
+  .lesson01-box {
+    margin: 2rem;
+  }
+  .photo-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .iconpark-flex {
+    flex-direction: column;
+    align-items: center;
+  }
 }
