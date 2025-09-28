@@ -47,6 +47,12 @@
                 <p class="label-icon">Projects</p>
             </div> 
 
+        <!--Weather App-->
+            <div class="desktop-icon" onclick="openWindow('weather')">
+                <img src="image/weather.png" alt="Weather App" width="64" height="64">
+                <p class="label-icon">Weather</p>
+            </div>    
+
         </div>
     </main>
 
@@ -106,7 +112,8 @@
         const windowConfigs = {
             'about': { title: 'About Me', src: 'about.html' },
             'resume': { title: 'Resume', src: 'resume.pdf' },
-            'projects': { title: 'Projects', src: 'project.html' }
+            'projects': { title: 'Projects', src: 'project.html' },
+            'weather': { title: 'Weather', src: 'https://gao-weather-app.netlify.app/' }
         };
 
         function openWindow(id) {

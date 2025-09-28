@@ -92,7 +92,6 @@ header {
 }
 
 .window-content {
-    padding: 20px;
     height: calc(100% - 28px);
     overflow-y: auto;
     background: white;
