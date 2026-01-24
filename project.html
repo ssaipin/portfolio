@@ -37,78 +37,13 @@
                 </div>
             </div>
         </nav>
-        <section class="project-section">
-
-            <h1 class="mb-4">School Work Projects</h1>
-            <p>Here are some of the projects I have worked on during my time at school:</p>
-
-            <button class="accordion">HTML and CSS Foundations</button>
-            <div class="content">
-                <p>In this course I learned about:</p>
-                <ul>
-                    <li>HTML structure and semantics</li>
-                    <li>CSS styling and Grid & Flex layout</li>
-                    <li>Images & Responsive design</li>
-                    <li>Accessibility & Multimedia</li>
-                    <li><a href="assets/lesson01/index.html" target="_blank">First HTML Semantics</a></li>
-                    <li><a href="https://ssaipin.github.io/mock-up-kitties/" target="_blank">Mockup Kitties</a></li>
-                    <li><a href="https://ssaipin.github.io/archery/" target="_blank">Archery</a></li>
-                </ul>
-            </div>
-
-            <button class="accordion">Javascript and Responsive Design</button>
-            <div class="content">
-                <p>In this course I learned about:</p>
-                <ul>
-                    <li>Javascript basics and DOM manipulation</li>
-                    <li>Responsive design</li>
-                    <li>Event handling and form validation</li>
-                    <li>APIs and JSON</li>
-                    <li><a href="https://ssaipin.github.io/html200-adopt-a-dog/" target="_blank">Adop a dog</a></li>
-                </ul>
-            </div>
-
-            <button class="accordion">Javascript and Advanced CSS</button>
-            <div class="content">
-                <p>In this course I learned about:</p>
-                <ul>
-                    <li>Advanced CSS techniques: Animations</li>
-                    <li>Bootstrap & Vue</li>
-                    <li>APIs and Asynchronous Programming</li>
-                    <li>Nuxt and Routing</li>
-                    <li>SEO (Search Engine Optimization)</li>
-                    <li><a href="https://transition-css.netlify.app/" target="_blank">Animations</a></li>
-                    <li><a href="https://codepen.io/ssaipin/pen/raOzPqv" target="_blank">Bank Dashboard</a></li>
-                    <li><a href="https://codepen.io/ssaipin/pen/xbwEMBX" target="_blank">Bootstrap Checkout Form</a>
-                    <li><a href="https://gao-weather-app.netlify.app/" target="_blank">Weather App</a> </li>    
-                    </li>
-
-                </ul>
-            </div>
-
-            <h1 class="mt-4">Personal Projects</h1>
-            <ul>
-                <li><a href="https://ssaipin.github.io/spaceship-game/" target="_blank">Spaceship shooting game</a></li>
-                <li><a href="https://food-fortune-stick.netlify.app/" target="_blank">Food Fortune Sticks</a></li>
-            </ul>
-
-            <script>
-                const acc = document.getElementsByClassName("accordion");
-
-                for (let i = 0; i < acc.length; i++) {
-                    acc[i].addEventListener("click", function () {
-                        this.classList.toggle("active");
-                        const content = this.nextElementSibling;
-
-                        if (content.style.display === "block") {
-                            content.style.display = "none";
-                        } else {
-                            content.style.display = "block";
-                        }
-                    });
-                }
-            </script>
+        
+        <section class="project-section mb-4">
+        <h1 class="mb-4">Projects</h1>
+        <div id="project-grid"></div>
         </section>
+        <script src="project.js"></script>
+
     </main>
     <footer class="mt-auto text-center p-2 custom-footer">
         &copy;2025 Designed by Gao | Seattle, WA
