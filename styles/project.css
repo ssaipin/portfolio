@@ -63,11 +63,11 @@
 
 @media (min-width: 769px) and (max-width: 1200px) {
   .project-section {
-    margin: 5rem;
+    margin: 3rem;
   }
 }
 @media (min-width: 373px) and (max-width: 768px) {
   .project-section {
-    margin: 2rem;
+    margin: 1rem;
   }
 }

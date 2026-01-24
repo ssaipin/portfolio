@@ -1,7 +1,7 @@
 const projects = [
     {
         title: 'Mockup Kitties',
-        image: '../image/kitties.png',
+        image: './image/kitties.png',
         alt: 'Mockup Kitties Project',
         description: 'Build with valid HTML and CSS, styling to match theme of mockup.',
         skills: ['HTML', 'CSS', 'Accessibility', 'Responsive Design'],
@@ -10,7 +10,7 @@ const projects = [
     },
     {
         title: 'Archery Academy',
-        image: '../image/archery1.jpeg',
+        image: './image/archery1.jpeg',
         alt: 'Archery Academy Project',
         description: 'Create a site architecture based on expected audience and desired content.',
         skills: ['HTML', 'CSS', 'Accessibility', 'Responsive Design'],
@@ -19,7 +19,7 @@ const projects = [
     },
      {
         title: 'CSS Animations',
-        image: '../image/animation.jpeg',
+        image: './image/animation.jpeg',
         alt: 'Animations with CSS Project',
         description: 'Explore various CSS animations and transitions.',
         skills: ['HTML', 'CSS', 'Animations'],
@@ -28,7 +28,7 @@ const projects = [
     },
     {
         title: 'Adopt A Dog',
-        image: '../image/adopt.png',
+        image: './image/adopt.png',
         alt: 'Adopt A Dog Project',
         description: `Create click handlers that alerts dog's info and total price when "Adopt" button is clicked.`,
         skills: ['HTML', 'CSS', 'Javascript', 'Responsive Design'],
@@ -37,7 +37,7 @@ const projects = [
     },
     {
         title: 'Banking App',
-        image: '../image/banking.jpeg',
+        image: './image/banking.jpeg',
         alt: 'Banking App Project',
         description: `The users should see prompt so they can type which action to perform.`,
         skills: ['HTML', 'CSS', 'Javascript'],
@@ -46,7 +46,7 @@ const projects = [
     },
     {
         title: 'Weather App',
-        image: '../image/weather.jpeg',
+        image: './image/weather.jpeg',
         alt: 'Weather App Project',
         description: `Real time weather application using Vue.js, Nuxt.js and OpenWeatherMap API.`,
         skills: ['HTML', 'CSS', 'Javascript', 'API', 'JSON', 'Vue', 'Nuxt', 'SEO'],
@@ -55,7 +55,7 @@ const projects = [
     },
     {
         title: 'Spaceship Game',
-        image: '../image/spaceship.png',
+        image: './image/spaceship.png',
         alt: 'Spaceship Game Project',
         description: `A fun spaceship game built with HTML, CSS, and JavaScript.`,
         skills: ['HTML', 'CSS', 'Javascript', 'Canvas'],
@@ -64,7 +64,7 @@ const projects = [
     },
     {
         title: 'Food Fortune Stick',
-        image: '../image/stick.jpeg',
+        image: './image/stick.jpeg',
         alt: 'Food Fortune Stick Project',
         description: `A fun food fortune stick game built with HTML, CSS, and JavaScript.`,
         skills: ['HTML', 'CSS', 'Javascript', 'React', 'Tailwind CSS'],
