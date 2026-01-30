@@ -12,14 +12,13 @@
 }   
 .social-icons {
     list-style: none;
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    flex-wrap: wrap;
+    width: 70%;
     gap: 2em;
-  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    animation: fadeInDown 0.8s ease-out;        
 }
+
 .fa-facebook {
     font-size: 80px;
     color: blue;
@@ -41,6 +40,34 @@
     color: black;
     text-decoration: none;
 }
+
+.photo-box {
+    animation: fadeInUp 0.6s ease-out backwards;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @media (min-width: 769px) and (max-width: 1200px) {
     .flex-container {
         margin: 5rem;
@@ -59,7 +86,7 @@
         width: 100%;
     }
     .social-icons {
-        width: 60%;
+        width: 80%;
         justify-content: center;
     }
     .fa-facebook, .fa-github, .fa-instagram, .fa-codepen {

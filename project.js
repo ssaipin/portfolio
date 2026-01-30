@@ -64,12 +64,39 @@ const projects = [
     },
     {
         title: 'Food Fortune Stick',
-        image: 'image/stick.jpeg',
+        image: 'image/stick.png',
         alt: 'Food Fortune Stick Project',
         description: `A fun food fortune stick game built with HTML, CSS, and JavaScript.`,
         skills: ['HTML', 'CSS', 'Javascript', 'React', 'Tailwind CSS'],
         demo: 'https://food-fortune-stick.netlify.app/',
         code: 'https://github.com/ssaipin/food-fortune-stick'
+    },
+    {
+        title: 'Pokemon Generator',
+        image: 'image/poke.png',
+        alt: 'Pokemon Generator Project',
+        description: `A Pokemon generator app built with HTML, CSS, and JavaScript.`,
+        skills: ['HTML', 'CSS', 'Javascript', 'API'],
+        demo: 'https://ssaipin.github.io/pokemon/',
+        code: 'https://github.com/ssaipin/pokemon'
+    },
+    {
+        title: 'Starwars Generator',
+        image: 'image/star.png',
+        alt: 'Starwars Generator Project',
+        description: `A Starwars character generator app built with HTML, CSS, and JavaScript.`,
+        skills: ['HTML', 'CSS', 'Javascript', 'React', 'API', 'JSON'],
+        demo: 'https://ssaipin.github.io/starwars/',
+        code: 'https://github.com/ssaipin/starwars'
+    },
+    {
+        title: 'Rock Scissor Paper Game',
+        image: 'image/game.png',
+        alt: 'Rock Scissor Paper Game Project',
+        description: `A rock scissor paper game built with Python.`,
+        skills: ['Python'],
+        demo: 'https://github.com/ssaipin/rock-paper-scissors',
+        code: 'https://github.com/ssaipin/rock-paper-scissors'
     }
 ]
 
