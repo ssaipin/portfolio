@@ -5,7 +5,7 @@ const projects = [
         alt: 'Hand Tracking Project',
         description: 'A hand tracking fruit slicing game inspired by Fruit Ninja.',
         skills: ['Python', 'OpenCV', 'Mediapipe', 'Numpy', 'Procreate'],
-        demo: 'https://github.com/ssaipin/ninja-fruit-',
+        demo: 'ninja.mp4',
         code: 'https://github.com/ssaipin/ninja-fruit-'
     },
     {
