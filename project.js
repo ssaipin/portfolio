@@ -1,12 +1,21 @@
 const projects = [
     {
-        title: 'Mockup Kitties',
-        image: 'image/kitties.png',
-        alt: 'Mockup Kitties Project',
-        description: 'Build with valid HTML and CSS, styling to match theme of mockup.',
-        skills: ['HTML', 'CSS', 'Accessibility', 'Responsive Design'],
-        demo: 'https://ssaipin.github.io/mock-up-kitties/',
-        code: 'https://github.com/ssaipin/mock-up-kitties'
+        title: 'Ninja Fruit',
+        image: 'image/ninja.jpg',
+        alt: 'Hand Tracking Project',
+        description: 'A hand tracking fruit slicing game inspired by Fruit Ninja.',
+        skills: ['Python', 'OpenCV', 'Mediapipe', 'Numpy', 'Procreate'],
+        demo: 'https://github.com/ssaipin/ninja-fruit-',
+        code: 'https://github.com/ssaipin/ninja-fruit-'
+    },
+    {
+        title: 'Rock Scissor Paper Game',
+        image: 'image/game.png',
+        alt: 'Rock Scissor Paper Game Project',
+        description: `A rock scissor paper game built with Python.`,
+        skills: ['Python'],
+        demo: 'https://github.com/ssaipin/rock-paper-scissors',
+        code: 'https://github.com/ssaipin/rock-paper-scissors'
     },
     {
         title: 'Archery Academy',
@@ -34,15 +43,6 @@ const projects = [
         skills: ['HTML', 'CSS', 'Javascript', 'Responsive Design'],
         demo: 'https://ssaipin.github.io/html200-adopt-a-dog/',
         code: 'https://github.com/ssaipin/html200-adopt-a-dog'
-    },
-    {
-        title: 'Banking App',
-        image: 'image/banking.jpeg',
-        alt: 'Banking App Project',
-        description: `The users should see prompt so they can type which action to perform.`,
-        skills: ['HTML', 'CSS', 'Javascript'],
-        demo: '#',
-        code: 'https://github.com/ssaipin/html200/tree/lesson06-assignment/lesson06'
     },
     {
         title: 'Weather App',
@@ -88,15 +88,6 @@ const projects = [
         skills: ['HTML', 'CSS', 'Javascript', 'React', 'API', 'JSON'],
         demo: 'https://ssaipin.github.io/starwars/',
         code: 'https://github.com/ssaipin/starwars'
-    },
-    {
-        title: 'Rock Scissor Paper Game',
-        image: 'image/game.png',
-        alt: 'Rock Scissor Paper Game Project',
-        description: `A rock scissor paper game built with Python.`,
-        skills: ['Python'],
-        demo: 'https://github.com/ssaipin/rock-paper-scissors',
-        code: 'https://github.com/ssaipin/rock-paper-scissors'
     }
 ]
 
